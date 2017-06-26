@@ -5,8 +5,6 @@
 }
 
 
-
-
 /* Hoa */
 img{
 	width: 100%;
@@ -24,85 +22,8 @@ img{
 	padding-left: 0;
 	padding-right: 0;
 	width: 100%;
-<<<<<<< HEAD
 }
 
-
-/*class of huong*/
-.background_img1 
-{
-    background-image: url(../img/background_eco.jpg);
-	background-repeat: no-repeat; 
-	background-size: cover; 
-	background-position: center;
-	height:  100%;  
-	padding: 00px 00px;
-	margin: 0;
-}
-.background_img2
-{
-    background-image: url(../img/background_neo.jpg);
-	background-repeat: no-repeat; 
-	background-size: cover; 
-	background-position: center;
-	height:  100%;  
-	padding: 00px 00px;
-	margin: 0;
-}
-.button_sp {
-	background: none;
-	padding: 40px 280px 40px 0px;
-	border-style: none;
-}
-
-.scrollwrap {
-	width: 100vw;
-	overflow-x: scroll;
-}
-.scrollwrapinside {
-    width: 200vw;
-}
-.scrollwrapleft {
-	padding: 10px;
- 	width: 92vw;
-    float: left;
-}
-.scrollwrapright {
-        position: relative;
-        width: 100vw;
-        float: right;
-}
-
-.scroll {
-	margin-top: 50px;
-	margin-left: 100px;
-    background: none;
-    width: 39vw;
-    height: 40vw;
-    overflow: scroll;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    float: left;
-    position: relative;
-}
-
-.greencolor {
-    font-weight: bold;
-    color: #004234;
-}
-#section1{
-	z-index: 100;
-	position: absolute;
-}
-#section2{
-	z-index: 10;
-	position: absolute;
-}
-
-/*class and id of huong*/
-=======
-	overflow-x: hidden;
-}
 .navbar-toggle{
 	background: green;
 	border-radius: 1px solid white;
@@ -151,4 +72,86 @@ a{
 	width: 100%;
 }
 /* Hoa */
->>>>>>> 40f0d418d92e9e780d6d987f9fb808cbf048aa63
+
+/*class of huong*/
+.background_img1 
+{
+    background-image: url(../img/background_eco.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center;
+	height:  100%;  
+	padding: 00px 00px;
+	margin: 0;
+}
+.background_img2
+{
+    background-image: url(../img/background_pure.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center;
+	height:  100%;  
+	padding: 00px 00px;
+	margin: 0;
+}
+.background_img3
+{
+    background-image: url(../img/background_neo.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center;
+	height:  100%;  
+	padding: 00px 00px;
+	margin: 0;
+}
+.button_sp {
+	background: none;
+	padding: 40px 280px 40px 0px;
+	border-style: none;
+}
+
+.scrollwrap {
+	width: 100vw;
+	overflow-x: scroll;
+}
+.scrollwrapinside {
+    width: 200vw;
+}
+.scrollwrapleft {
+	padding: 10px;
+ 	width: 92vw;
+    float: left;
+}
+.scrollwrapright {
+        position: relative;
+        width: 100vw;
+        float: right;
+}
+
+.scroll {
+	margin-top: 50px;
+	margin-left: 100px;
+    background: none;
+    width: 39vw;
+    height: 36vw;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    float: left;
+    position: relative;
+}
+
+.greencolor {
+    font-weight: bold;
+    color: #004234;
+}
+#section1{
+	z-index: 100;
+	position: absolute;
+}
+#section2{
+	z-index: 10;
+	position: absolute;
+}
+
+/*class and id of huong*/

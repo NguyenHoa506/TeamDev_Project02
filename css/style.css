@@ -1,1 +1,9 @@
 /*-----Dat ten class co ten minh de phan biet nha------------*/
+/*Hoa */
+.container{
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}

@@ -7,12 +7,24 @@
 
 
 
+/* Hoa */
+img{
+	width: 100%;
+	height: 100%;
+}
+.container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
 .container{
 	margin-right: 0;
 	margin-left: 0;
 	padding-left: 0;
 	padding-right: 0;
 	width: 100%;
+<<<<<<< HEAD
 }
 
 
@@ -88,3 +100,55 @@
 }
 
 /*class and id of huong*/
+=======
+	overflow-x: hidden;
+}
+.navbar-toggle{
+	background: green;
+	border-radius: 1px solid white;
+	padding: 0;
+	margin: 0;
+	right: 20px;
+	top: 0;
+	position: absolute;
+}
+.navbar-collapse li{
+	display: inline-table;
+}
+.navbar-collapse{
+	top: 0;
+	position: absolute;
+	right: 5px;
+}
+a{
+	text-decoration: none;
+	background-color: transparent;
+	color: #42a791;
+	text-align: center;
+}
+.row{
+	padding-left: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-right: 0;
+}
+.col-xs-12{
+	padding-left: 0;
+	width: 100%;
+	padding-right: 0;
+}
+.col-md-12{
+	padding-left: 0;
+	width: 100%;
+	padding-right: 0;
+}
+.icon-bar{
+	background: white;
+}
+.tagline{
+	top:25%;
+	position: absolute;
+	width: 100%;
+}
+/* Hoa */
+>>>>>>> 40f0d418d92e9e780d6d987f9fb808cbf048aa63

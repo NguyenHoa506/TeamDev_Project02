@@ -1,5 +1,12 @@
 /*-----Dat ten class co ten minh de phan biet nha------------*/
-/*Hoa */
+@font-face {
+	font-family: Taviraj;
+	src: url(../font/Taviraj-Regular.ttf);
+}
+
+
+
+
 .container{
 	margin-right: 0;
 	margin-left: 0;

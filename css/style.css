@@ -22,7 +22,59 @@ img{
 	padding-left: 0;
 	padding-right: 0;
 	width: 100%;
+<<<<<<< HEAD
+=======
+	overflow-x: hidden;
 }
+.navbar-toggle{
+	background: green;
+	border-radius: 1px solid white;
+	padding: 0;
+	margin: 0;
+	right: 20px;
+	top: 0;
+	position: absolute;
+}
+.navbar-collapse li{
+	display: inline-table;
+}
+.navbar-collapse{
+	top: 0;
+	position: absolute;
+	right: 5px;
+}
+a{
+	text-decoration: none;
+	background-color: transparent;
+	color: #42a791;
+	text-align: center;
+}
+.row{
+	padding-left: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-right: 0;
+>>>>>>> a78cbf6d432c43d57b70e756e08c02dd00c3fff5
+}
+.col-xs-12{
+	padding-left: 0;
+	width: 100%;
+	padding-right: 0;
+}
+.col-md-12{
+	padding-left: 0;
+	width: 100%;
+	padding-right: 0;
+}
+.icon-bar{
+	background: white;
+}
+.tagline{
+	top:25%;
+	position: absolute;
+	width: 100%;
+}
+/* Hoa */
 
 .navbar-toggle{
 	background: green;
@@ -154,4 +206,8 @@ a{
 	position: absolute;
 }
 
+<<<<<<< HEAD
 /*class and id of huong*/
+=======
+/*class and id of huong*/
+>>>>>>> a78cbf6d432c43d57b70e756e08c02dd00c3fff5

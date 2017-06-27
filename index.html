@@ -7,8 +7,47 @@
         <link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/myjs.js"> </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script>
+        	$(document).ready(function(){
+			    $(".button_sp1").click(function(){
+			        $("#section2").hide();
+			        $("#section3").hide();
+			    });
+			    $(".button_sp").click(function(){
+			        $("#section1").toggle();
+			    });
+
+			});
+        </script>
+
+        <script>
+        	$(document).ready(function(){
+			 
+			    $(".button_sp3").click(function(){
+			        $("#section1").hide();
+			        $("#section2").hide();
+			    });
+			    $(".button_sp").click(function(){
+			        $("#section3").toggle();
+			    });
+			});
+        </script>
+
+        <script>
+        	$(document).ready(function(){
+			 
+			    $(".button_sp2").click(function(){
+			        $("#section1").hide();
+			        $("#section3").hide();
+			    });
+			    $(".button_sp").click(function(){
+			        $("#section2").toggle();
+			    });
+			});
+        </script>
 </head>
 <body>
 	<div class="container">
@@ -57,10 +96,9 @@
             </div>
         </div>
         <!-- Hoa -->
-<<<<<<< HEAD
-       
 
-		<!--p>huong start<p-->
+
+		<!--p> huong start <p-->
        <div class="col-md-12 col-sm-12 col-xs-12" >
        		<div id="section1">
 		       		<div class="background_img1" style="height: 1054px; width: 1600;">
@@ -70,19 +108,19 @@
             			</div>
 			       		<div class="col-xs-4 col-sm-4 col-md-4" >
 			       			<a  >
-			       				<button type="button"  class="button_sp" style="margin-top: 410px; margin-left:  50px;">
+			       				<button type="button"  class="button_sp1" style="margin-top: 410px; margin-left:  50px;">
 			       				</button>
 			       			</a>
 			       		</div>
 			       		<div class="col-xs-4 col-sm-4 col-md-4">
-			       			<a href ="#section2" >
-			       				<button type="button"  class="button_sp" href ="#section2" style="margin-top: 410px; margin-left:  45px;">
+			       			<a  >
+			       				<button type="button"  class="button_sp2"  style="margin-top: 410px; margin-left:  45px;">
 			       				</button>
 			       			</a>
 			       		</div>
 			       		<div class="col-xs-4 col-sm-4 col-md-4" >
-			       			<a  href ="#section3" >
-			       				<button type="button" class="button_sp" style="margin-top: 410px; margin-left:  45px;">
+			       			<a  >
+			       				<button type="button" class="button_sp3" style="margin-top: 410px; margin-left:  45px;">
 			       				</button>
 			       			</a>
 			       		</div>
@@ -114,20 +152,20 @@
                     		BỘ SƯU TẬP
             			</div>
 			       		<div class="col-xs-4 col-sm-4 col-md-4">
-			       			<a href="#nem_eco" >
-			       				<button type="button" href ="#section1" class="button_sp" style="margin-top: 410px; margin-left:  50px;">
+			       			<a  >
+			       				<button type="button"  class="button_sp1" style="margin-top: 410px; margin-left:  50px;">
 			       				</button>
 			       			</a>
 			       		</div>
 			       		<div class="col-xs-4 col-sm-4 col-md-4" >
-			       			<a href="#nem_eco" >
-			       				<button type="button" class="button_sp" style="margin-top: 410px; margin-left:  45px;">
+			       			<a  >
+			       				<button type="button"  class="button_sp2" style="margin-top: 410px; margin-left:  45px;">
 			       				</button>
 			       			</a>
 			       		</div>
 			       		<div class="col-xs-4 col-sm-4 col-md-4" >
-			       			<a href="#nem_eco" >
-			       				<button type="button" href ="#section3" class="button_sp" style="margin-top: 410px; margin-left:  45px;">
+			       			<a  >
+			       				<button type="button" class="button_sp3" style="margin-top: 410px; margin-left:  45px;">
 			       				</button>
 			       			</a>
 			       		</div>
@@ -139,8 +177,6 @@
 			       					</div>
 			       				</div>
 			       			</div-->
-							<div class="scroll">
-
 							<div class="scroll" style="font-family: Taviraj, serif;">
 								Không chỉ là nệm, đó là tuyệt tác từ Châu Âu, <span class="greencolor">Latex world Eco </span>  được bổ sung những công nghệ mới, cho bạn giấc ngủ ngon, nâng tầm chất lượng cuộc sống. Thiết kế với 3 lớp cao sao đặc biệt nên đẳng cấp khác biệt: <br>
 								<span class="greencolor">● DTECH Comfort </span>  giúp phân bổ áp lực thông qua các đặc điểm tiếp xúc trên toàn bộ cơ thể. <br>
@@ -153,27 +189,27 @@
 			       		</div>
 			       	</div>
 			</div>
-			<div id="section3">
+       <div id="section3">
 		       		<div class="background_img3" style="height: 1054px; width: 1600;">
 			       		<!--img class="background_img" src="img/background_eco.jpg"-->
 			       		<div class="bigtitle" id="bigtitle1" style="text-align: center;font-family: Taviraj, serif; padding-top: 10px; font-size: 14pt;">
                     		BỘ SƯU TẬP
             			</div>
 			       		<div class="col-xs-4 col-sm-4 col-md-4">
-			       			<a href="#nem_eco" >
-			       				<button type="button" href ="#section1" class="button_sp" style="margin-top: 410px; margin-left:  50px;">
+			       			<a  >
+			       				<button type="button"  class="button_sp1" style="margin-top: 410px; margin-left:  50px;">
 			       				</button>
 			       			</a>
 			       		</div>
 			       		<div class="col-xs-4 col-sm-4 col-md-4" >
-			       			<a href="#nem_eco" >
-			       				<button type="button" href = "#section2" class="button_sp" style="margin-top: 410px; margin-left:  45px;">
+			       			<a  >
+			       				<button type="button"  class="button_sp2" style="margin-top: 410px; margin-left:  45px;">
 			       				</button>
 			       			</a>
 			       		</div>
 			       		<div class="col-xs-4 col-sm-4 col-md-4" >
-			       			<a href="#nem_eco" >
-			       				<button type="button" class="button_sp" style="margin-top: 410px; margin-left:  45px;">
+			       			<a  >
+			       				<button type="button" class="button_sp3" style="margin-top: 410px; margin-left:  45px;">
 			       				</button>
 			       			</a>
 			       		</div>
@@ -197,13 +233,8 @@
 			       		</div>
 			       	</div>
 			</div>
-       </div>
-       <!--p>huong end<p-->
-=======
->>>>>>> cd9d594311f09dae0eb645fd6381fcec8ca994ee
-		
-
     </div>
+    <!--p>   huong end  <p-->
 
 </body>
 </html>

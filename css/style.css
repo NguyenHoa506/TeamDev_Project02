@@ -11,6 +11,7 @@
 	margin-left: 0;
 	padding-left: 0;
 	padding-right: 0;
+	padding-bottom: 0;
 	width: 100%;
 	overflow-x: hidden;
 }
@@ -41,7 +42,7 @@
 	position: absolute;
 	right: 5px;
 }
-a{
+#a{
 	text-decoration: none;
 	background-color: transparent;
 	color: #42a791;
@@ -67,7 +68,6 @@ a{
 }
 /* Hoa */
 
-<<<<<<< HEAD
 
 /*class of huong*/
 .background_img1 
@@ -100,7 +100,19 @@ a{
 	padding: 00px 00px;
 	margin: 0;
 }
-.button_sp {
+.button_sp1{
+	background: none;
+	padding: 40px 280px 40px 0px;
+	border-style: none;
+}
+
+.button_sp2{
+	background: none;
+	padding: 40px 280px 40px 0px;
+	border-style: none;
+}
+
+.button_sp3{
 	background: none;
 	padding: 40px 280px 40px 0px;
 	border-style: none;
@@ -142,15 +154,15 @@ a{
     color: #004234;
 }
 #section1{
-	z-index: 100;
+	z-index: 3;
 	position: absolute;
 }
 #section2{
-	z-index: 10;
+	z-index: 2;
 	position: absolute;
 }
 #section3{
-	z-index: -1;
+	z-index: 1;
 	position: absolute;
 }
 
@@ -169,6 +181,3 @@ a{
 }
 
 /*class and id of huong*/
-
-=======
->>>>>>> cd9d594311f09dae0eb645fd6381fcec8ca994ee

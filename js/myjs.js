@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $(".button_sp").click(function(){
+        $("#section1").hide();
+        $("#section3").hide();
+    });
+    $(".button_sp").click(function(){
+        $("#section2").show();
+    });
+});

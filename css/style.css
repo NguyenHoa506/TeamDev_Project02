@@ -6,16 +6,6 @@
 
 
 /* Hoa */
-img{
-	width: 100%;
-	height: 100%;
-}
-.container-fluid{
-	padding-right: 0;
-	padding-left: 0;
-	margin-right: 0;
-	margin-left: 0;
-}
 .container{
 	margin-right: 0;
 	margin-left: 0;
@@ -23,6 +13,16 @@ img{
 	padding-right: 0;
 	width: 100%;
 	overflow-x: hidden;
+}
+.imgh{
+	width: 100%;
+	height: 100%;
+}
+.container-fluidh{
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: 0;
+	margin-left: 0;
 }
 .navbar-toggle{
 	background: green;
@@ -47,18 +47,12 @@ a{
 	color: #42a791;
 	text-align: center;
 }
-.row{
-	padding-left: 0;
-	margin-left: 0;
-	margin-right: 0;
-	padding-right: 0;
-}
-.col-xs-12{
+.col-xs-12h{
 	padding-left: 0;
 	width: 100%;
 	padding-right: 0;
 }
-.col-md-12{
+.col-md-12h{
 	padding-left: 0;
 	width: 100%;
 	padding-right: 0;
@@ -96,6 +90,8 @@ a{
 	color: #42a791;
 	text-align: center;
 }
+<<<<<<< HEAD
+=======
 .row{
 	padding-left: 0;
 	margin-left: 0;
@@ -120,6 +116,7 @@ a{
 	position: absolute;
 	width: 100%;
 }
+>>>>>>> 50898283c9199980f35ebd46c780abdadbc226da
 /* Hoa */
 
 /*class of huong*/
@@ -202,6 +199,8 @@ a{
 	z-index: 10;
 	position: absolute;
 }
+<<<<<<< HEAD
+=======
 
 .bigtitle {
     text-transform: uppercase;
@@ -214,4 +213,7 @@ a{
 	top: 0.5vw;
 	color: #004234;
 }
+>>>>>>> 50898283c9199980f35ebd46c780abdadbc226da
 /*class and id of huong*/
+/*class and id of huong*/
+

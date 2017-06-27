@@ -203,3 +203,116 @@ a{
 }
 
 /*class and id of huong*/
+
+
+.tinh-nang {
+	background-image: url("../img/background-tinhnang.png");
+	width: 100%;
+	background-repeat: repeat-y;
+	background-position: center;
+
+	font-family: Taviraj;
+	font-style: italic;
+	color: #004234;
+}
+
+.div-tinh-nang {
+	margin-bottom: 2vw;
+}
+
+.div-description {
+	margin-top: 3vw;
+}
+.line {
+	margin-bottom: 5vw;
+}
+
+.img-size {
+	width: 100%;
+	height: auto;
+}
+
+.image-content {
+	margin-top: 4vw;
+}
+
+.description {
+	font-size: 1.3vw;
+	font-style: initial;
+	color: black;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-color: #004234;
+	border-width: 0.2vw;
+
+	padding: 0.5vw 0;
+}
+
+
+.advertisement {
+	background-image: url("../img/banner.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	padding-bottom: 2vw;
+	padding-top: 14vw;
+
+	font-family: Taviraj;
+}
+
+.button-ad {
+	border-style: none;
+	background-color: #004234;
+	border-radius: 20px;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+.button-ad:hover {
+	background-color: #004234;
+}
+
+.contact {
+	color: white;
+	font-style: italic;
+
+	background-image: url("../img/khuyenmai.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.board {
+	margin-bottom: 1.5vw;
+}
+
+.form-color {
+	background-color: #6F948C;
+	border-style: none;
+}
+
+
+
+#comment {
+	margin-bottom: 2vw;
+}
+
+.button-sent {
+	padding-right: 3vw;
+	padding-left: 3vw;
+	background-color: white;
+	color: black;
+	font-style: initial;
+}
+
+@media screen and (max-width: 480px) {
+	.description {
+		font-size: 3vw;
+	}
+
+	.div-img {
+		margin-top: 8vw;
+	}
+}

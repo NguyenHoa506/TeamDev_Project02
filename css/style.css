@@ -231,7 +231,7 @@ a{
 	    background-position: center;
 	    height:  auto;
 	    width: 100%;  
-	    padding: 0em 0em;
+	    padding: 0 0;
 	    margin: 0em 0em;
 	    padding-bottom: 10px;
 	   
@@ -244,8 +244,8 @@ a{
 	    background-position: center;
 	    height:  auto;
 	    width: 100%;  
-	    padding: 0em 0em;
-	    margin: 0em 0em;
+	    padding: 0 0;
+	    margin: 0 0;
 	    padding-bottom: 10px;
 	}
 	.desktop{

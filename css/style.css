@@ -79,28 +79,21 @@ a{
 	position: absolute;
 	width: 100%
 }
-.scroll {
-    background: none;
-    overflow: scroll;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    float: left;
-    position: relative;
-    height: 30vw;
-}
+
 /* Hoa */
 
 
-/*class of huong*/
+/*ids and classes of huong*/
 .background_img1 
 {
     background-image: url(../img/background_eco.jpg);
 	background-repeat: no-repeat; 
 	background-size: cover; 
 	background-position: center;
-	height:  100%;  
-	padding: 00px 00px;
-	margin: 0;
+	height:  100%;
+	width: 100%;  
+	padding: 0em 0em;
+	margin: 0em 0em;
 }
 .background_img2
 {
@@ -109,8 +102,9 @@ a{
 	background-size: cover; 
 	background-position: center;
 	height:  100%;  
-	padding: 00px 00px;
-	margin: 0;
+	width: 100%;
+	padding: 0em 0em;
+	margin: 0 0;
 }
 .background_img3
 {
@@ -118,27 +112,30 @@ a{
 	background-repeat: no-repeat; 
 	background-size: cover; 
 	background-position: center;
-	height:  100%;  
-	padding: 00px 00px;
+	height:  100%;
+	width: 100%;  
+	max-width: 100%;
+	padding: 0em 0em;
 	margin: 0;
 }
 .button_sp1{
 	background: none;
-	padding: 40px 280px 40px 0px;
+	padding: 2em 20em 2em 0em;
 	border-style: none;
 }
 
 .button_sp2{
 	background: none;
-	padding: 40px 280px 40px 0px;
+	padding: 2em 20em 2em 0em;
 	border-style: none;
 }
 
 .button_sp3{
 	background: none;
-	padding: 40px 280px 40px 0px;
+	padding: 2em 20em 2em 0em;
 	border-style: none;
 }
+
 
 .scrollwrap {
 	width: 100vw;
@@ -159,11 +156,11 @@ a{
 }
 
 .scroll {
-	margin-top: 50px;
-	margin-left: 100px;
+	margin-top: 2.5em;
+	margin-left: 5em;
     background: none;
     width: 39vw;
-    height: 36vw;
+    height: 20vw;
     overflow: scroll;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -202,7 +199,26 @@ a{
 	color: #004234;
 }
 
-/*class and id of huong*/
+
+
+
+@media only screen and (min-width: 48em) {
+    .column-half {
+        width: 50%;
+    }
+}
+.column-half,
+.column-full {
+    float: left;
+    position: relative;
+    padding: 0.65rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+/*classes and ides of huong*/
 
 
 .tinh-nang {

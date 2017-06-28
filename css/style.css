@@ -195,7 +195,7 @@ a{
     width: 100vw;
     text-align: center;
     position: absolute;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
 }
 #bigtitle1 {
 	top: 0.5vw;
@@ -250,15 +250,21 @@ a{
 
 
 .advertisement {
-	background-image: url("../img/banner.jpg");
+	background-image: url("../img/khuyenmai-2.jpg");
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	
 	padding-bottom: 2vw;
-	padding-top: 14vw;
+	padding-top: 20vw;
 
 	font-family: Taviraj;
+}
+
+.text-ad {
+	color: white;
+	font-size: 1.3vw;
+	font-style: italic;
 }
 
 .button-ad {
@@ -267,10 +273,17 @@ a{
 	border-radius: 20px;
 	padding-left: 3vw;
 	padding-right: 3vw;
+	margin-top: 2vw;
 }
-
 .button-ad:hover {
+	font-weight: bolder;
 	background-color: #004234;
+}
+strong.gradient-text {
+	background-image: -webkit-linear-gradient(bottom, #FF9900, #FFFF99, #FF9900);
+	color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .contact {
@@ -285,8 +298,15 @@ a{
 
 }
 
+
+
+.info-company {
+	font-size: 1.1vw;
+}
+
 .board {
 	margin-bottom: 1.5vw;
+	font-size: 0.9em;
 }
 
 .form-color {

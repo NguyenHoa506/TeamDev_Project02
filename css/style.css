@@ -200,24 +200,82 @@ a{
     color: #004234;
 }
 
+.desktop{
 
-
-
-@media only screen and (min-width: 48em) {
-    .column-half {
-        width: 50%;
-    }
 }
-.column-half,
-.column-full {
-    float: left;
-    position: relative;
-    padding: 0.65rem;
-    width: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
+
+.mobile{
+	padding-bottom: 2em ;
+	display: none;
 }
+
+@media screen and (max-width: 768px) {
+	.background_img1 
+	{
+	    background-image: none;
+	    background-repeat: no-repeat; 
+	    background-size: cover; 
+	    background-position: center;
+	    height:  auto;
+	    width: 100%;  
+	    padding: 0em 0em;
+	    margin: 0em 0em;
+	}
+	.background_img2
+	{
+		float:  right;
+	    background-image: none;
+	    background-repeat: no-repeat; 
+	    background-size: cover; 
+	   
+	}
+	.background_img3
+	{
+		float: right;
+	    background-image: none;
+	    background-repeat: no-repeat; 
+	    background-size: cover; 
+	    background-position: center;
+	    height:  100%;
+	    width: 100%;  
+	    max-width: 100%;
+	    padding: 0em 0em;
+	    margin: 0;
+	}
+	.desktop{
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+	#section1{
+	    /*z-index: auto;
+	    position: absolute;*/
+	}
+	#section2{
+	    /*z-index: auto;
+	    position: absolute;*/
+	}
+	#section3{
+	    /*z-index: auto;
+	    position: absolute;*/
+	}
+
+	.scroll {
+	    margin-top: 3em;
+	    margin-left: 0.5em;
+	    background: none;
+	    padding-top: 3em;
+	    width: 80vw;
+	    height: 60vw;
+	    overflow: scroll;
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    float: left;
+	    position: relative;
+	}
+}
+
 
 /*classes and ides of huong*/
 

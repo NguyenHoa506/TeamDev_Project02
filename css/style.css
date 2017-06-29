@@ -134,7 +134,7 @@
 	    overflow-y: scroll;
 	    float: left;
 	    position: relative;
-	    height: 30vw;
+	    height: 29vw;
 	}	
 }
 /* Hoa */
@@ -177,25 +177,29 @@
 }
 .button_sp1{
     background: none;
-    padding: 2em 21.5em 3em 0em;
     margin-left: 5em;
     border-style: none;
+    width: 20vw;
+    height: 6vw;
 }
 
 .button_sp2{
     background: none;
-    padding: 3em 21.5em 3em 0em;
+    width: 20vw;
+    height: 6vw;
     border-style: none;
 }
 
 .button_sp3{
     background: none;
-    padding: 2em 21.5em 3em 0em;
     border-style: none;
+    width: 20vw;
+    height: 6vw;
 }
 
 
 .scrollwrap {
+	overflow: scroll;
     width: 100vw;
     overflow-x: scroll;
 }
@@ -214,13 +218,13 @@
 }
 
 .scroll {
-    margin-top: 3em;
+    margin-top: 1em;
     margin-left: 5em;
     background: none;
     padding-top: 30px;
     width: 39vw;
     height: 39vw;
-    
+    overflow: scroll;
     overflow-y: scroll;
     overflow-x: hidden;
     float: left;

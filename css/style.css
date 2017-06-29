@@ -555,10 +555,6 @@ strong.gradient-text {
 	.div-img {
 		margin-top: 8vw;
 	}
-	.img_d{
-		display: none;
-	}
-
 	.background-menu {
 		display: none;
 	}
@@ -581,14 +577,14 @@ strong.gradient-text {
 
 
 
-
-
-	
+	.img_d{
+		display: none;
+	}
 	.tg_d{
 		display: none;
 	}
 	.tg_m{
-		width: 80%;
+		width: 85%;
 	}
 	.div-tagline{
 		top: 85%;
@@ -600,6 +596,7 @@ strong.gradient-text {
 	.background-menu-m {
 		display: none;
 	}
+	
 	.img_m{
 		display: none;
 	}
@@ -607,9 +604,10 @@ strong.gradient-text {
 		display: none;
 	}
 	.tg_d{
-		width: 500px;
+		width: 400px;
 	}
 	.div-tagline{
-		top: 25%;
+		width: 100%;
+		top: 26%;
 	}
 }

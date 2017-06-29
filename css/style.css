@@ -219,9 +219,9 @@
     padding-top: 30px;
     width: 39vw;
     height: 39vw;
-    overflow: scroll;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    
+    overflow-y: hidden;
+    overflow-x: scroll;
     float: left;
     position: relative;
 }
@@ -306,7 +306,7 @@
 	    padding-bottom: 10px;
 	}
 	.desktop{
-		padding-bottom: 20em;
+		
 		display: none;
 	}
 	.mobile {
@@ -326,18 +326,20 @@
 	}
 
 	.scroll {
-	    margin-top: 3em;
-	    margin-left: 1em;
-	    background: none;
-	    padding-top: 3em;
-	    width: 80vw;
-	    height: 70vw;
-	    overflow: scroll;
-	    overflow-x: hidden;
-	    overflow-y: scroll;
-	    float: left;
-	    position: relative;
+	    width: 100vw;
+        overflow-x: scroll;
+        transform: rotate(-90deg);
 	}
+	.scrollleft {
+        padding: 10px;
+        width: 92vw;
+        float: left;
+    }
+    .scrollright {
+        position: relative;
+        width: 100vw;
+        float: right;
+    }
 }
 
 

@@ -39,7 +39,10 @@ a{
 	padding-top: 0;
 }
 
-
+.div-head {
+	padding-left: 0;
+	padding-right: 0;
+}
 
 
 
@@ -422,10 +425,6 @@ strong.gradient-text {
 		padding-right: 0;
 	}
 
-	.background-menu-m {
-		
-		z-index: 
-	}
 
 	.bg-li {
 		background-image: url("../img/bg-li.png");
@@ -448,6 +447,10 @@ strong.gradient-text {
 		position: relative;
 		top: -67px;
 		z-index: -1;
+		/*z-index de thiet lap thu chong len nhau cua cac block cung cap
+		Phai cos thuoc tinh position: relative; Thuong di kem vs 
+		top, bottom, left, right
+		Mac dinh z-index = 0. z-index cang lon cang nam len tren*/
 	}
 
 	div#navbar.navbar-collapse.collapsing {

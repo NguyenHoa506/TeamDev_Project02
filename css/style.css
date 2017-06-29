@@ -130,9 +130,9 @@ a{
     padding-top: 30px;
     width: 39vw;
     height: 39vw;
-    overflow: scroll;
-    overflow-x: hidden;
+    
     overflow-y: scroll;
+    overflow-x: hidden;
     float: left;
     position: relative;
 }
@@ -187,8 +187,8 @@ a{
 	    background-position: center;
 	    height:  auto;
 	    width: 100%;  
-	    padding: 0em 0em;
-	    margin: 0em 0em;
+	    padding: 0;
+	    margin: 0;
 	    padding-bottom: 10px;
 	}
 	.background_img2
@@ -199,9 +199,9 @@ a{
 	    background-position: center;
 	    height:  auto;
 	    width: 100%;  
-	    padding: 0em 0em;
-	    margin: 0em 0em;
-	    padding-bottom: 10px;
+	    padding: 0;
+	    margin: 0;
+	    padding-bottom: 0;
 	   
 	}
 	.background_img3
@@ -212,12 +212,12 @@ a{
 	    background-position: center;
 	    height:  auto;
 	    width: 100%;  
-	    padding: 0em 0em;
-	    margin: 0em 0em;
-	    padding-bottom: 10px;
+	    padding: 0;
+	    margin: 0;
+	    padding-bottom: 0;
 	}
 	.desktop{
-		padding-bottom: 20em;
+		
 		display: none;
 	}
 	.mobile {
@@ -236,19 +236,25 @@ a{
 	    position: absolute;*/
 	}
 
-	.scroll {
-	    margin-top: 3em;
-	    margin-left: 1em;
-	    background: none;
-	    padding-top: 3em;
-	    width: 80vw;
-	    height: 70vw;
-	    overflow: scroll;
-	    overflow-x: hidden;
-	    overflow-y: scroll;
-	    float: left;
-	    position: relative;
+	.scrollmobile{
+	    width: 100vw;
+        overflow-x: scroll;
+     	overflow-y: hidden;
+     	-webkit-overflow-scrolling:touch;
 	}
+	.scrollwrapinside {
+        width: 200vw;
+    }
+	.scrollleft{
+        padding: 10px;
+        width: 120vw;
+      	float: left;
+    }
+    .scrollright{
+        position: relative;
+        width: 100vw;
+        float: left;
+    }
 }
 
 

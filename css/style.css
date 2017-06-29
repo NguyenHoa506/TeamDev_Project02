@@ -103,18 +103,24 @@ a{
     background: none;
     padding: 2em 20em 2em 0em;
     border-style: none;
+    width: 20vw;
+    height: 6vw;
 }
 
 .button_sp2{
     background: none;
     padding: 2em 20em 2em 0em;
     border-style: none;
+    width: 20vw;
+    height: 6vw;
 }
 
 .button_sp3{
     background: none;
     padding: 2em 20em 2em 0em;
     border-style: none;
+    width: 20vw;
+    height: 6vw;
 }
 
 
@@ -137,7 +143,7 @@ a{
 }
 
 .scroll {
-    margin-top: 3em;
+    margin-top: 1em;
     margin-left: 5em;
     background: none;
     padding-top: 30px;
@@ -271,7 +277,6 @@ a{
 	.scrollmobile{
 	    width: 100vw;
         overflow-x: scroll;
-
      	-webkit-overflow-scrolling:touch;
 	}
 	.scrollwrapinside {
@@ -304,7 +309,7 @@ a{
 	::-webkit-scrollbar-thumb {
 	    background: #004234;
 	    border: 1px solid rgb(0, 0, 0);
-	    border-radius: 9px;
+	    border-radius: 7px;
 	}
 }
 

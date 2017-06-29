@@ -15,129 +15,48 @@
 	overflow-x: hidden;
 }
 
-@media only screen and (max-width: 768px){
-	.bground{
-		background-image: url(../img/header_m.png);
-		width: 100%;
-		height: 120px;
-	}
-	.navbar-toggle{
-		background: transparent;
-		border-radius: none;
-		padding: 0;
-		margin: 0;
-		right: 20px;
-		top: 40px;
-		position: absolute;
-	}
-	.icon-bar{
-		background: white;
-	}
-	.navbar-nav>li>a{
-	    text-align: center;
-	    top: 80px;
-	    background: #0c6e59;
-	    color: #42a791; 
-	}
-	a:hover{
-		color: white;
-	}
-	.navbar-collapse{
-		top: 100px;
-		right: 5px;
-	}
-	.bgrd{
-		background-image: url(../img/background_1_m.jpg);
-		width: 100%;
-		min-height: 450px;
-		height: 100%;
-		background-size: 100%;
-		background-repeat: no-repeat;
-	}
-	.div-head {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.tagline img{
-		margin-top: 340px;
-		width: 300px;
-	}
-	.navbar-nav{
-		margin-top: 0;
-		margin-bottom: 0;
-	}
+
+
+.nav {
+	font-family: Taviraj;
+	font-size: 1em;
 }
 
-@media only screen and (min-width: 769px){
-	.div-top{
-		margin-top: 80px;
-	}
-	.div-head {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.bground{
-		background-image: url(../img/header.png);
-		width: 100%;
-		height: 200px;
-		background-repeat: no-repeat;
-	}
-	.bgrd{
-		background-image: url(../img/background_1.jpg);
-		width: 100%;
-		height: 450px;
-		background-size: 100%;
-		background-repeat: no-repeat;
-	}
-	.container-fluidh{
-		padding-right: 0;
-		padding-left: 0;
-		margin-right: 0;
-		margin-left: 0;
-	}
-	.navbar-collapse li{
-		display: inline-table;
-	}
-	.navbar-collapse{
-		top: 0;
-		position: absolute;
-		right: 5px;
-	}
-	.navbar-nav>li>a{
-		text-decoration: none;
-		background-color: transparent;
-		color: #42a791;
-		text-align: center;
-	}
-	a:hover{
-		color: white;
-	}
-	.col-xs-12h{
-		padding-left: 0;
-		width: 100%;
-		padding-right: 0;
-	}
-	.col-md-12h{
-		padding-left: 0;
-		width: 100%;
-		padding-right: 0;
-	}
-	.scroll1{
-		top:50%;
-		position: absolute;
-		width: 100%
-	}
-	.scroll {
-	    background: none;
-	    overflow: scroll;
-	    overflow-x: hidden;
-	    overflow-y: scroll;
-	    float: left;
-	    position: relative;
-	    height: 29vw;
-	}	
+.nav-menu {
+	background: rgba(238, 210, 238, 0);
+	border-style: none;
 }
+
+.navbar-default .navbar-nav>li>a {
+	color: #42a791;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:active {
+	color: white;
+}
+
+a{
+	padding-top: 0;
+}
+img{
+	width:100%;
+}
+
+.div-head {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+
+
+
 /* Hoa */
+
+
 
 
 /*ids and classes of huong*/
@@ -177,7 +96,7 @@
 }
 .button_sp1{
     background: none;
-    margin-left: 5em;
+    padding: 2em 20em 2em 0em;
     border-style: none;
     width: 20vw;
     height: 6vw;
@@ -185,13 +104,15 @@
 
 .button_sp2{
     background: none;
+    padding: 2em 20em 2em 0em;
+    border-style: none;
     width: 20vw;
     height: 6vw;
-    border-style: none;
 }
 
 .button_sp3{
     background: none;
+    padding: 2em 20em 2em 0em;
     border-style: none;
     width: 20vw;
     height: 6vw;
@@ -199,7 +120,6 @@
 
 
 .scrollwrap {
-	overflow: scroll;
     width: 100vw;
     overflow-x: scroll;
 }
@@ -224,7 +144,7 @@
     padding-top: 30px;
     width: 39vw;
     height: 39vw;
-    overflow: scroll;
+    
     overflow-y: scroll;
     overflow-x: hidden;
     float: left;
@@ -355,17 +275,17 @@
      	-webkit-overflow-scrolling:touch;
 	}
 	.scrollwrapinside {
-        width: 100vw;
+        width: 200vw;
     }
 	.scrollleft{
         padding: 10px;
-        width: 92vw;
-        float: left;
+        width: 120vw;
+      	float: left;
     }
     .scrollright{
         position: relative;
         width: 100vw;
-        float: right;
+        float: left;
     }
 
     ::-webkit-scrollbar {
@@ -529,7 +449,7 @@ strong.gradient-text {
 
 @media screen and (max-width: 480px) {
     .description {
-        font-size: 3vw;
+        font-size: 6vw;
     }
 
     .div-img {
@@ -537,70 +457,71 @@ strong.gradient-text {
 	}
 
 	.background-menu {
-    display: none;
-  }
+		display: none;
+	}
 
-  button.navbar-toggle {
-    margin-bottom: 0;
-  }
-  .head-menu {
-    padding-right: 0;
-    padding-left: 0;
-  }
+	button.navbar-toggle {
+		margin-bottom: 0;
+	}
+	.head-menu {
+		padding-right: 0;
+		padding-left: 0;
+	}
 
-  div.container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-  }
+	div.container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
 
 
-  .bg-li {
-    background-image: url("../img/bg-li.png");
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center;
-    border-bottom-style: solid;
-    border-bottom-color: white;
-    border-bottom-width: 1px;
-  }
+	.bg-li {
+		background-image: url("../img/bg-li.png");
+		background-repeat: no-repeat; 
+		background-size: cover; 
+		background-position: center;
+		border-bottom-style: solid;
+		border-bottom-color: white;
+		border-bottom-width: 1px;
+	}
 
-  img.img-size.background-menu-m {
-    position: relative;
-    z-index: 1;
-  }
-  div.navbar-header {
-    padding-right: 2em;
-    position: relative;
-    top: -65px;
-    z-index: 2;
+	img.img-size.background-menu-m {
+		position: relative;
+		z-index: 1;
+	}
+	div.navbar-header {
+		padding-right: 2em;
+		position: relative;
+		top: -65px;
+		z-index: 2;
 
-  }
+	}
 
-  div#navbar.navbar-collapse.collapse.in {
-    border-top-style: none;
-    position: relative;
-    top: -67px;
-    /*z-index de thiet lap thu chong len nhau cua cac block cung cap
-    Phai cos thuoc tinh position: relative; Thuong di kem vs 
-    top, bottom, left, right
-    Mac dinh z-index = 0. z-index cang lon cang nam len tren*/
-  }
+	div#navbar.navbar-collapse.collapse.in {
+		border-top-style: none;
+		position: relative;
+		top: -67px;
+		/*z-index de thiet lap thu chong len nhau cua cac block cung cap
+		Phai cos thuoc tinh position: relative; Thuong di kem vs 
+		top, bottom, left, right
+		Mac dinh z-index = 0. z-index cang lon cang nam len tren*/
+	}
 
-  div#navbar.navbar-collapse.collapsing {
-    border-top-style: none;
-    position: relative;
-    top: -67px;
-    z-index: -1;
-  }
+	div#navbar.navbar-collapse.collapsing {
+		border-top-style: none;
+		position: relative;
+		top: -67px;
+		z-index: -1;
+	}
 
-  button.navbar-toggle {
-    background: rgba(238, 210, 238, 0);
-    border-style: none;
-  }
+	button.navbar-toggle {
+		background: rgba(238, 210, 238, 0);
+		border-style: none;
+	}
 
-  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background: rgba(238, 210, 238, 0);
-  }
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background: rgba(238, 210, 238, 0);
+	}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -610,5 +531,17 @@ strong.gradient-text {
 
 	.div-img {
 		margin-top: 8vw;
+	}
+	.img_d{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.background-menu-m {
+		display: none;
+	}
+	.img_m{
+		display: none;
 	}
 }

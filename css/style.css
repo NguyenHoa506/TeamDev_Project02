@@ -177,19 +177,20 @@
 }
 .button_sp1{
     background: none;
-    padding: 2em 20em 2em 0em;
+    padding: 2em 21.5em 3em 0em;
+    margin-left: 5em;
     border-style: none;
 }
 
 .button_sp2{
     background: none;
-    padding: 2em 20em 2em 0em;
+    padding: 3em 21.5em 3em 0em;
     border-style: none;
 }
 
 .button_sp3{
     background: none;
-    padding: 2em 20em 2em 0em;
+    padding: 2em 21.5em 3em 0em;
     border-style: none;
 }
 
@@ -328,21 +329,20 @@
 	.scrollmobile{
 	    width: 100vw;
         overflow-x: scroll;
-     	overflow-y: hidden;
      	-webkit-overflow-scrolling:touch;
 	}
 	.scrollwrapinside {
-        width: 200vw;
+        width: 100vw;
     }
 	.scrollleft{
         padding: 10px;
-        width: 120vw;
-      	float: left;
+        width: 92vw;
+        float: left;
     }
     .scrollright{
         position: relative;
         width: 100vw;
-        float: left;
+        float: right;
     }
 }
 

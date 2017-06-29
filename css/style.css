@@ -471,6 +471,19 @@ strong.gradient-text {
     .div-img {
 		margin-top: 8vw;
 	}
+	
+	.img_d{
+		display: none;
+	}
+	.tg_d{
+		display: none;
+	}
+	.tg_m{
+		width: 90%;
+	}
+	.div-tagline{
+		top: 85%;
+	}
 
 	.background-menu {
 		display: none;
@@ -546,7 +559,7 @@ strong.gradient-text {
 
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) and (min-width: 481px){
 
 	.description {
 		font-size: 2vw;
@@ -584,7 +597,7 @@ strong.gradient-text {
 		display: none;
 	}
 	.tg_m{
-		width: 85%;
+		width: 120%;
 	}
 	.div-tagline{
 		top: 85%;

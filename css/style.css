@@ -505,6 +505,7 @@ strong.gradient-text {
 		border-top-style: none;
 		position: relative;
 		top: -67px;
+		font-size: 1em;
 		/*z-index de thiet lap thu chong len nhau cua cac block cung cap
 		Phai cos thuoc tinh position: relative; Thuong di kem vs 
 		top, bottom, left, right
@@ -516,6 +517,7 @@ strong.gradient-text {
 		position: relative;
 		top: -67px;
 		z-index: -1;
+		font-size: 1em;
 	}
 
 	button.navbar-toggle {
@@ -533,9 +535,7 @@ strong.gradient-text {
 
 }
 
-@media screen and (max-width: 992px) {
-
-
+@media screen and (max-width: 992px){
 
 	.description {
 		font-size: 2vw;
@@ -547,6 +547,31 @@ strong.gradient-text {
 	.img_d{
 		display: none;
 	}
+
+	.background-menu {
+		display: none;
+	}
+
+	.head-menu {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	div.container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	div#navbar.navbar-collapse.collapse {
+		position: relative;
+		top: -120px;
+		font-size: 0.65em;
+	}
+
+
+
+
+
 	
 	.tg_d{
 		display: none;

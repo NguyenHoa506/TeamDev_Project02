@@ -352,7 +352,6 @@
 	.scrollmobile{
 	    width: 100vw;
         overflow-x: scroll;
-       
      	-webkit-overflow-scrolling:touch;
 	}
 	.scrollwrapinside {
@@ -385,7 +384,7 @@
 	::-webkit-scrollbar-thumb {
 	    background: #004234;
 	    border: 1px solid rgb(0, 0, 0);
-	    border-radius: 9px;
+	    border-radius: 7px;
 	}
 }
 

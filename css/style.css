@@ -15,7 +15,9 @@
 	overflow-x: hidden;
 }
 
-
+.div-tagline{
+	position: absolute;
+}
 
 .nav {
 	font-family: Taviraj;
@@ -533,6 +535,15 @@ strong.gradient-text {
 	.img_d{
 		display: none;
 	}
+	.tg_d{
+		display: none;
+	}
+	.tg_m{
+		width: 80%;
+	}
+	.div-tagline{
+		top: 85%;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -541,5 +552,14 @@ strong.gradient-text {
 	}
 	.img_m{
 		display: none;
+	}
+	.tg_m{
+		display: none;
+	}
+	.tg_d{
+		width: 500px;
+	}
+	.div-tagline{
+		top: 25%;
 	}
 }

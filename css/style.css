@@ -40,8 +40,11 @@
 a{
 	padding-top: 0;
 }
-img{
-	width:100%;
+.img_m{
+	width: 100%;
+}
+.img_d{
+	width: 100%;
 }
 
 .div-head {

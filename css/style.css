@@ -520,9 +520,16 @@ strong.gradient-text {
 		background: rgba(238, 210, 238, 0);
 	}
 
+	.div-hoten {
+		text-align: center;
+	}
+
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+
+
+
 	.description {
 		font-size: 2vw;
 	}
@@ -533,6 +540,20 @@ strong.gradient-text {
 	.img_d{
 		display: none;
 	}
+	.background-menu {
+		display: none;
+	}
+
+	.head-menu {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	div.container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+
 }
 
 @media only screen and (min-width: 992px) {

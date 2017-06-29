@@ -536,6 +536,72 @@ strong.gradient-text {
     .div-img {
 		margin-top: 8vw;
 	}
+
+	.background-menu {
+    display: none;
+  }
+
+  button.navbar-toggle {
+    margin-bottom: 0;
+  }
+  .head-menu {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  div.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+  .bg-li {
+    background-image: url("../img/bg-li.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+  }
+
+  img.img-size.background-menu-m {
+    position: relative;
+    z-index: 1;
+  }
+  div.navbar-header {
+    padding-right: 2em;
+    position: relative;
+    top: -65px;
+    z-index: 2;
+
+  }
+
+  div#navbar.navbar-collapse.collapse.in {
+    border-top-style: none;
+    position: relative;
+    top: -67px;
+    /*z-index de thiet lap thu chong len nhau cua cac block cung cap
+    Phai cos thuoc tinh position: relative; Thuong di kem vs 
+    top, bottom, left, right
+    Mac dinh z-index = 0. z-index cang lon cang nam len tren*/
+  }
+
+  div#navbar.navbar-collapse.collapsing {
+    border-top-style: none;
+    position: relative;
+    top: -67px;
+    z-index: -1;
+  }
+
+  button.navbar-toggle {
+    background: rgba(238, 210, 238, 0);
+    border-style: none;
+  }
+
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: rgba(238, 210, 238, 0);
+  }
 }
 
 @media screen and (max-width: 768px) {

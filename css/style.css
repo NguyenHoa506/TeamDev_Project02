@@ -15,6 +15,8 @@
 	overflow-x: hidden;
 }
 
+
+
 .nav {
 	font-family: Taviraj;
 	font-size: 1em;
@@ -37,6 +39,9 @@
 
 a{
 	padding-top: 0;
+}
+img{
+	width:100%;
 }
 
 
@@ -476,10 +481,16 @@ strong.gradient-text {
 	.div-img {
 		margin-top: 8vw;
 	}
+	.img_d{
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 992px) {
 	.background-menu-m {
+		display: none;
+	}
+	.img_m{
 		display: none;
 	}
 }

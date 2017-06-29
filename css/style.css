@@ -135,9 +135,9 @@ a{
     float: left;
 }
 .scrollwrapright {
-        position: relative;
-        width: 100vw;
-        float: right;
+    position: relative;
+    width: 100vw;
+    float: right;
 }
 
 .scroll {
@@ -288,7 +288,7 @@ a{
     .scrollright{
         position: relative;
         width: 100vw;
-        float: left;
+        float: right;
     }
 
     ::-webkit-scrollbar {

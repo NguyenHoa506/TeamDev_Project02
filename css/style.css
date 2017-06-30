@@ -43,6 +43,7 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a[tabindex]:focus {
+	/*Doi mau link sau khi click, not :visit*/
 	color: white;
 	outline: none;
 }
@@ -341,10 +342,10 @@ a{
 
 .tinh-nang {
 	background-image: url("../img/background-tinhnang.png");
-	width: 100%;
+	height: auto;
 	background-size: cover;
-	background-repeat: repeat-y;
 	background-position: center;
+	width: 100%;
 
     font-family: Taviraj;
     font-style: italic;
@@ -473,7 +474,7 @@ strong.gradient-text {
     color: black;
     font-style: initial;
     border-style: none;
-    outline: 0;
+    outline: none;
 }
 
 @media screen and (max-width: 480px) {

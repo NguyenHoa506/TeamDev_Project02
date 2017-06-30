@@ -38,9 +38,6 @@ body {
 .navbar-default .navbar-nav>li>a:hover {
 	color: white;
 }
-.navbar-default .navbar-nav>li>a:active {
-	color: white;
-}
 
 .navbar-default .navbar-nav>li>a[tabindex]:focus {
 	/*Doi mau link sau khi click, not :visit*/

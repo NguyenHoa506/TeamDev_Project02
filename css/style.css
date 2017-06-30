@@ -224,7 +224,7 @@ a{
 
 .desktop{
 	padding-bottom: 30px;
-	margin-bottom: 75em;
+	margin-bottom: 73em;
 }
 
 .mobile{
@@ -377,6 +377,7 @@ a{
     font-family: Taviraj;
     font-style: italic;
     color: #004234;
+    padding-top: 3em;
 }
 
 .div-tinh-nang {
@@ -465,6 +466,7 @@ strong.gradient-text {
 	width: 100%;
 	background-repeat: repeat-y;
 	background-position: center;
+	padding-bottom: 1em;
 
 }
 

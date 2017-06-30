@@ -477,6 +477,10 @@ button.btn.btn-primary.button-sent, button.btn.btn-primary.button-sent:focus, bu
 }
 
 @media screen and (max-width: 480px) {
+	#menu-ipad {
+		display: none;
+	}
+
     .description {
         font-size: 3vw;
     }
@@ -547,6 +551,7 @@ button.btn.btn-primary.button-sent, button.btn.btn-primary.button-sent:focus, bu
 		position: relative;
 		top: -67px;
 		font-size: 1em;
+		width: 414px;
 		/*z-index de thiet lap thu chong len nhau cua cac block cung cap
 		Phai cos thuoc tinh position: relative; Thuong di kem vs 
 		top, bottom, left, right
@@ -577,6 +582,19 @@ button.btn.btn-primary.button-sent, button.btn.btn-primary.button-sent:focus, bu
 }
 
 @media screen and (max-width: 992px) and (min-width: 481px){
+	#menu-destop {
+		display: none;
+	}
+
+	.navbar-nav>li>a {
+		padding-left: 1em;
+		padding-right: 1em;
+		font-size: 1.2em;
+	}
+
+	div#navbar.navbar-collapse.collapse {
+		padding-right: 2em;
+	}
 
 	.description {
 		font-size: 2vw;
@@ -625,6 +643,9 @@ button.btn.btn-primary.button-sent, button.btn.btn-primary.button-sent:focus, bu
 }
 
 @media only screen and (min-width: 992px) {
+	#menu-ipad {
+		display: none;
+	}
 	.background-menu-m {
 		display: none;
 	}

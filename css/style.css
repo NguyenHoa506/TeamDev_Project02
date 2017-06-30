@@ -1,7 +1,4 @@
 /*-----Dat ten class co ten minh de phan biet nha------------*/
-body {
-	color: white;
-}
 @font-face {
     font-family: Taviraj;
     src: url(../font/Taviraj-Regular.ttf);
@@ -208,11 +205,6 @@ a{
 }
 
 #bigtitle2 {
-    top: 0.5vw;
-    color: #004234;
-}
-
-#bigtitle3 {
     top: 0.5vw;
     color: #004234;
 }

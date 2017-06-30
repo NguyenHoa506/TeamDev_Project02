@@ -486,6 +486,10 @@ strong.gradient-text {
 		margin-top: 8vw;
 	}
 	
+	.div-col{
+		padding: 0;
+		text-align: center;
+	}
 	.img_d{
 		display: none;
 	}
@@ -493,7 +497,7 @@ strong.gradient-text {
 		display: none;
 	}
 	.tg_m{
-		width: 90%;
+		width: 85%;
 	}
 	.div-tagline{
 		top: 85%;
@@ -602,8 +606,10 @@ strong.gradient-text {
 		font-size: 0.65em;
 	}
 
-
-
+	
+	.div-col{
+		padding-left: 60px;
+	}
 	.img_d{
 		display: none;
 	}
@@ -623,7 +629,6 @@ strong.gradient-text {
 	.background-menu-m {
 		display: none;
 	}
-	
 	.img_m{
 		display: none;
 	}
@@ -632,6 +637,7 @@ strong.gradient-text {
 	}
 	.tg_d{
 		width: 400px;
+		margin-left: 40px;
 	}
 	.div-tagline{
 		width: 100%;
